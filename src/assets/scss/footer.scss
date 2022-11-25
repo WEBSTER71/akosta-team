@@ -3,7 +3,36 @@
 	align-items: center;
 	justify-content: center;
 	height: 100px;
-	background: black;
-	color: white;
-	margin-top: 100px;
+	padding: 30px 0px;
+	background-color: #373737;
+	color: #B5B5B5;
+	&__wrapper{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__items{
+		display: flex;
+		column-gap: 50px;
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 15px;
+		color: white;
+	}
+	&__copyrat{
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	&__social{
+		display: flex;
+		column-gap: 15px;
+	}
+	&__user{
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+	}
 }

@@ -7,6 +7,18 @@ const routes = [
     component: () =>
       import ('../views/MainPage.vue')
   },
+  {
+    path: '/profile',
+    name: 'profile',
+    component: () =>
+      import('../views/Profile.vue')
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: () =>
+      import('../views/Error.vue')
+  }
 ]
 
 const router = createRouter({

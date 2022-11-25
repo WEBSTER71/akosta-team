@@ -1,6 +1,20 @@
 <template>
 	<footer class="footer">
-		footer
+		<div class="footer__container _container">
+			<div class="footer__wrapper">
+				<div class="footer__items">
+					<div class="footer__title">LOGO</div>
+					<div class="footer__copyrat">© 2021. Logo. Все права защищены</div>
+				</div>
+				<div class="footer__items">
+					<div class="footer__social">
+						<div class="footer__icon"><img src="../assets/img/footer/vk.svg"></div>
+						<div class="footer__icon"><img src="../assets/img/footer/tg.svg"></div>
+					</div>
+					<div class="footer__user">Пользовательское соглашение</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 </template>
 
