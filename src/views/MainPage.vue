@@ -13,7 +13,7 @@
 							<div class="main-block__bg"><img src="../assets/img/homepage/main-bg.png" alt=""></div>
 						</div>
 					</div>
-					</div>
+				</div>
 			</div>
 			<div class="advantages">
 				<div class='advantages__container _container'>
@@ -32,7 +32,7 @@
 							<div class="advantages__text">Красивый дизайн</div>
 						</div>
 					</div>
-					</div>
+				</div>
 			</div>
 			<div class="skills">
 				<div class="skills__container _container">
@@ -83,10 +83,10 @@ import headerComponents from '../components/header'
 import footerComponents from '../components/footer'
 
 export default {
-  name: 'mainPage',
-  components: {
+	name: 'mainPage',
+	components: {
 		headerComponents,
 		footerComponents,
-  }
+	}
 }
 </script>

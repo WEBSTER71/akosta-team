@@ -25,7 +25,7 @@ import headerComponents from '../components/header'
 import footerComponents from '../components/footer'
 
 export default {
-  name: 'mainPage',
+  name: 'error',
   components: {
 		headerComponents,
 		footerComponents,
