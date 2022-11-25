@@ -20,8 +20,14 @@
 .btn {
 	display: inline-flex;
 	align-self: flex-start;
+	background: #01E45C;
+	border-radius: 100px;
 	transition: 0.3s;
 	&-txt {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 7px 25px;
 	}
 	&:hover {
 	}
