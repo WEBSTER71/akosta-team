@@ -24,6 +24,18 @@ const routes = [
     name: '404',
     component: () =>
       import('../views/Error.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () =>
+      import('../views/Login.vue')
+  },
+  {
+    path: '/IPR',
+    name: 'IPR',
+    component: () =>
+      import('../views/IPR.vue')
   }
 ]
 

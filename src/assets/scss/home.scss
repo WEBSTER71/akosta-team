@@ -20,6 +20,7 @@
 		font-weight: 400;
 		font-size: 18px;
 		line-height: 30px;
+        max-width: 609px;
 	}
 	&__bg {
 		& img {
@@ -30,6 +31,7 @@
 	}
 }
 .advantages {
+    margin-top: 50px;
 	&__title {
 		font-weight: 900;
 		font-size: 30px;
@@ -82,8 +84,6 @@
 		padding: 18px 30px;
 		border: 1px solid #000;
 	}
-	&__content-box {
-	}
 	&__text {
 		font-weight: 400;
 		font-size: 14px;
@@ -91,7 +91,67 @@
 		border: 1px solid #000;
 	}
 }
-.profile {
+.blog{
+    margin-top: 150px;
+    height: 550px;
+    &__title{
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 39px;
+        color: #2B2B2B;
+    }
+    &__wrapper{
+
+        max-width: 380px;
+
+        max-height: 250px;
+
+    }
+    &__items{
+        display: flex;
+        flex-direction: row;
+        column-gap: 50px;
+        & img{
+            max-width: 380px;
+        }
+
+    }
+    &__box{
+        margin-top: 60px;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 4px 26px rgba(203, 203, 203, 0.25);
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        row-gap: 28px;
+        &__tx{
+            text-align: left;
+            margin-left: 28px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        &:hover{
+            cursor: pointer;
+            color: #66d43d;
+        }
+        &__date{
+            margin-left: 28px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            padding-bottom: 20px;
+
+            color: #8C8C8C;
+        }
+    }
+}
+
+
+
+
+.profile{
     &__wrapper{
         display: flex;
         justify-content: space-between;

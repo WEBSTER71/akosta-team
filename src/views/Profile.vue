@@ -68,10 +68,10 @@
                             <div class="description__map-block">
                             </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
-		</main>
+		</profile>
 		<footer-components />
 	</div>
 </template>

@@ -7,7 +7,7 @@
 					<div class="main-block__wrapper">
 						<div class="main-block__items">
 							<div class="main-block__title">Фабрика скилов</div>
-							<div class="main-block__subtitle">Мы - биржа для IT специалистов</div>
+							<div class="main-block__subtitle">Мы сервис который поможет IT-cпециалистам обучиться новым технолигиям, а также найти хорошую работу, с высокой заработной платой и любыми условиями подходящими именно ему.<br> А работадателю мы поможем найти хороших спецалистов с нужными знаниями для воплощения его проекта.</div>
 						</div>
 						<div class="main-block__items">
 							<div class="main-block__bg"><img src="../assets/img/homepage/main-bg.png" alt=""></div>
@@ -54,21 +54,26 @@
 					</div>
 				</div>
 			</div>
-			<div class="company">
-				<div class="company__container _container">
-					<div class="company__title"></div>
-					<div class="company__wrapper">
-						<div class="company__items">
-							<div class="company__image"></div>
-						</div>
-						<div class="company__items">
-							<div class="company__image"></div>
-						</div>
-						<div class="company__items">
-							<div class="company__image"></div>
-						</div>
-						<div class="company__items">
-							<div class="company__image"></div>
+			<div class="blog">
+				<div class="blog__container _container">
+					<div class="blog__title">Блог:</div>
+					<div class="blog__wrapper">
+						<div class="blog__items">
+							<div class="blog__box">
+								<div class="blog__box__img"><img src="../assets/img/homepage/news.jpg"></div>
+								<div class="blog__box__tx">Добавлен новый "Практический курс по HR" в раздел "Индивидуального плана развития" </div>
+								<div class="blog__box__date">25 ноября 2022</div>
+							</div>
+							<div class="blog__box">
+								<div class="blog__box__img"><img src="../assets/img/homepage/news.jpg"></div>
+								<div class="blog__box__tx">Добавлен новый "Практический курс по HR" в раздел "Индивидуального плана развития" </div>
+								<div class="blog__box__date">25 ноября 2022</div>
+							</div>
+							<div class="blog__box">
+								<div class="blog__box__img"><img src="../assets/img/homepage/news.jpg"></div>
+								<div class="blog__box__tx">Добавлен новый "Практический курс по HR" в раздел "Индивидуального плана развития" </div>
+								<div class="blog__box__date">25 ноября 2022</div>
+							</div>
 						</div>
 					</div>
 				</div>
