@@ -1,16 +1,16 @@
 <template>
 	<div class="wrapper">
 		<header-components />
-		<main class="page">
-			<div class="main-block">
-                <div class="main-block__container _container">
-                    <div class="main-block__wrapper">
-                        <div class="main-block__items">
-                            <div class="main-block__surname">Владислав Акоста</div>
-                            <div class="main-blcok__profession">Full-Stack разработчкик</div>
+		<profile class="page">
+			<div class="profile-block">
+                <div class="profile-block__container _container">
+                    <div class="profile-block__wrapper">
+                        <div class="profile-block__items">
+                            <div class="profile-block__surname">Владислав Акоста</div>
+                            <div class="profile-blcok__profession">Full-Stack разработчкик</div>
                         </div>
-                        <div class="main-block__items">
-                            <div class="main-block__photo"><img src="../assets/img/profile/photo.png"></div>
+                        <div class="profile-block__items">
+                            <div class="profile-block__photo"><img src="../assets/img/profile/photo.png"></div>
                         </div>
                     </div>
                 </div>
@@ -68,10 +68,10 @@
                             <div class="description__map-block">
                             </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </div>
-		</main>
+		</profile>
 		<footer-components />
 	</div>
 </template>
@@ -84,7 +84,7 @@ import Footer from '@/components/footer.vue'
 
 
 export default {
-  name: 'mainPage',
+  name: 'profilePage',
   components: {
 		headerComponents,
 		footerComponents
