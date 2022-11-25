@@ -1,11 +1,11 @@
 //====================================================================================================
 .header {
-	padding: 20px 0px;
-	background: #F2F2F2;
+	background: #fff;
 	&__wrapper {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 20px 30px;
 	}
 	&__items {
 	}
@@ -13,13 +13,16 @@
 		font-weight: 900;
 		font-size: 24px;
 		line-height: 31px;
+		transition: 0.3s;
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.1);
+		}
 	}
-
 	&__button-box {
 		display: flex;
 		gap: 20px;
 	}
-
 	&__button {
 	}
 }

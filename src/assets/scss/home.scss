@@ -1,0 +1,93 @@
+.main-block {
+	position: relative;
+	background: #F2F2F2;
+	&__wrapper {
+		display: flex;
+	}
+	&__items {
+		display: flex;
+		flex-direction: column;
+		row-gap: 10px;
+		padding: 234px 0px;
+		padding-left: 30px;
+	}
+	&__title {
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 47px;
+	}
+	&__subtitle {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	&__bg {
+		& img {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+.advantages {
+	&__title {
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 39px;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 75px;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__items {
+		display: flex;
+		align-items: center;
+		column-gap: 25px;
+	}
+	&__icon {
+		& img {
+			width: 60px;
+			height: 50px;
+		}
+	}
+	&__text {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 27px;
+		max-width: 200px;
+	}
+}
+.skills {
+	&__title {
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 39px;
+		text-align: center;
+		margin-top: 150px;
+	}
+	&__wrapper {
+		display: flex;
+	}
+	&__subtitle-box {
+		display: flex;
+		flex-direction: column;
+	}
+	&__subtitle {
+		display: flex;
+		font-weight: 700;
+		font-size: 14px;
+		padding: 18px 30px;
+		border: 1px solid #000;
+	}
+	&__content-box {
+	}
+	&__text {
+		font-weight: 400;
+		font-size: 14px;
+		padding: 18px 30px;
+		border: 1px solid #000;
+	}
+}

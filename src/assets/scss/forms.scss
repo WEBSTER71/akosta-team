@@ -20,16 +20,22 @@
 .btn {
 	display: inline-flex;
 	align-self: flex-start;
-	background: #01E45C;
+	border: 1px solid #2B2B2B;
 	border-radius: 100px;
 	transition: 0.3s;
 	&-txt {
 		font-weight: 600;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 24px;
 		padding: 7px 25px;
+		transition: 0.3s;
 	}
 	&:hover {
+		border: 1px solid #01E45C;
+		.btn-txt {
+			color: #01E45C;
+			transform: scale(1.1);
+		}
 	}
 }
 //</BUTTONS>====================================================================================================

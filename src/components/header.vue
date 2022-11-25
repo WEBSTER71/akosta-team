@@ -8,10 +8,10 @@
 				<div class="header__items">
 					<div class="header__button-box">
 						<button class="header__button btn">
-							<div class="btn-txt">Войти</div>
+							<div class="btn-txt">Вход</div>
 						</button>
 						<button class="header__button btn">
-							<div class="btn-txt">Выйти</div>
+							<div class="btn-txt">Регистрация</div>
 						</button>
 					</div>
 				</div>

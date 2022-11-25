@@ -2,7 +2,77 @@
 	<div class="wrapper">
 		<header-components />
 		<main class="page">
-			page
+			<div class="main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__wrapper">
+						<div class="main-block__items">
+							<div class="main-block__title">Фабрика скилов</div>
+							<div class="main-block__subtitle">Мы - биржа для IT специалистов</div>
+						</div>
+						<div class="main-block__items">
+							<div class="main-block__bg"><img src="../assets/img/homepage/main-bg.png" alt=""></div>
+						</div>
+					</div>
+					</div>
+			</div>
+			<div class="advantages">
+				<div class='advantages__container _container'>
+					<div class="advantages__title">Наши преимущества</div>
+					<div class="advantages__wrapper">
+						<div class="advantages__items">
+							<div class="advantages__icon"><img src="../assets/img/homepage/people-icon.svg" alt=""></div>
+							<div class="advantages__text">Большая база<br>IT-специалистов</div>
+						</div>
+						<div class="advantages__items">
+							<div class="advantages__icon"><img src="../assets/img/homepage/skills-icon.svg" alt=""></div>
+							<div class="advantages__text">Развитие скиллов<br>IT-специалистов</div>
+						</div>
+						<div class="advantages__items">
+							<div class="advantages__icon"><img src="../assets/img/homepage/design-icon.svg" alt=""></div>
+							<div class="advantages__text">Красивый дизайн</div>
+						</div>
+					</div>
+					</div>
+			</div>
+			<div class="skills">
+				<div class="skills__container _container">
+					<div class="skills__title">Скиллы</div>
+					<div class="skills__wrapper">
+						<div class="skills__subtitle-box">
+							<a href="#" class="skills__subtitle">Программирование</a>
+							<a href="#" class="skills__subtitle">Маркетинг</a>
+							<a href="#" class="skills__subtitle">Дизайн</a>
+							<a href="#" class="skills__subtitle">Менеджемент</a>
+						</div>
+						<div class="skills__content-box">
+							<div class="skills__text">1</div>
+							<div class="skills__text">lorem</div>
+							<div class="skills__text">3</div>
+							<div class="skills__text">4</div>
+							<div class="skills__text">5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="company">
+				<div class="company__container _container">
+					<div class="company__title"></div>
+					<div class="company__wrapper">
+						<div class="company__items">
+							<div class="company__image"></div>
+						</div>
+						<div class="company__items">
+							<div class="company__image"></div>
+						</div>
+						<div class="company__items">
+							<div class="company__image"></div>
+						</div>
+						<div class="company__items">
+							<div class="company__image"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer-components />
 	</div>
