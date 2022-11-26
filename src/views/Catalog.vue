@@ -70,9 +70,9 @@
 									<div class="catalog__button btn">
 										<div class="btn-txt">Пригласить</div>
 									</div>
-									<div class="catalog__button btn">
+									<router-link to="/profile" class="catalog__button btn">
 										<div class="btn-txt">Профиль</div>
-									</div>
+									</router-link>
 								</div>
 							</div>
 						</div>

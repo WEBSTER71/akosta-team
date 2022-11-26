@@ -302,29 +302,6 @@
         }
     }
 }
-
-
-/*Курсы*/
-
-.curs_py_1{
-    &__wrapper{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    &__headBlock{
-        background-color: #000000;
-        display: flex;
-        flex-direction: row;
-    }
-    &__items{}
-    &__block{
-        max-width: 32px;
-        max-height: 32px;
-        background-color: #F0F0F0;
-	}
-}
-
 .catalog {
 	&__main-title {
 		font-weight: 900;
@@ -621,4 +598,25 @@
 			color: #337AE7;
 		}
 	}
+}
+// //Курсы
+.curs_py_1{
+	&__wrapper{
+			display: flex;
+			flex-direction: row;
+			
+	}
+	&__headBlock{
+			background-color: #000000;
+			display: flex;
+			flex-direction: row;
+	}
+	&__items{
+		padding: 0px;
+	}
+	&__block{
+			max-width: 32px;
+			max-height: 32px;
+			background-color: #F0F0F0;
+}
 }
