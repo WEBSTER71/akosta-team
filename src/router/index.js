@@ -30,6 +30,12 @@ const routes = [
     name: 'IPR',
     component: () =>
       import('../views/IPR.vue')
+  },
+  {
+    path: '/curs1_py',
+    name: 'curs1_py',
+    component: () =>
+      import('../views/curs/Curse_Py_1.vue')
   }
 ]
 
