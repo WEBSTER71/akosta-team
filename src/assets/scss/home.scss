@@ -196,11 +196,13 @@
 			display: flex;
 			flex-direction: column;
 			row-gap: 15px;
-			&:first-child {
-				order: 2;
-			}
-			&:last-child {
-				order: 1;
+			@media (max-width:$md4) {
+				&:first-child {
+					order: 2;
+				}
+				&:last-child {
+					order: 1;
+				}
 			}
     }
     &__surname{
