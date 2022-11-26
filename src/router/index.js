@@ -41,7 +41,7 @@ const routes = [
     path: '/ipr',
     name: 'ipr',
     component: () =>
-      import('../views/ipr.vue')
+      import('../views/IPR.vue')
   },
   {
     path: '/curs-py-1',
