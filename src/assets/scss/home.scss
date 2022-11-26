@@ -91,9 +91,6 @@
 		border: 1px solid #000;
 	}
 }
-
-
-
 .blog{
     margin-top: 150px;
     height: 550px;
@@ -154,7 +151,7 @@
 
 
 
-.profile-block{
+.profile{
     &__wrapper{
         display: flex;
         justify-content: space-between;
@@ -198,20 +195,17 @@
         font-size: 24px;
         line-height: 32px;  
     }
-
     &__text{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
     }
-
     &__title-skill{
         margin-top: 35px;
         font-weight: 900;
         font-size: 24px;    
         line-height: 32px;
     }
-
     &__button-box{
         display: flex;
         flex-direction: row;
@@ -228,11 +222,8 @@
         &-block{
             min-height: 200px;
         }
-
     }
 }
-
-
 .error{
     &__wrapper{
         display: flex;
@@ -243,9 +234,8 @@
         flex-direction: column; 
 		align-items: center;
 		justify-content: center;
-        margin-top: 230px;
+        margin: 230px 0px;
     }
-
     &__text-box{
         display: flex;
         flex-direction: column;
@@ -257,14 +247,13 @@
             font-weight: 900;
             font-size: 36px;
             line-height: 47px;
+						text-align: center;
         }
         &__descrypt{
             font-weight: 400;
             font-size: 18px;
             line-height: 24px;
-
             text-align: center;
-
             color: #7E7E7E;
         }
     }
@@ -289,5 +278,98 @@
         max-width: 32px;
         max-height: 32px;
         background-color: #F0F0F0;
-    }
+	}
+}
+
+.catalog {
+	&__main-title {
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 47px;
+		margin: 50px 0px;
+	}
+	&__wrapper {
+		display: flex;
+		column-gap: 20px;
+	}
+	&__left-box {
+		flex: 1 1 30%;
+		border: 1px solid #F0F0F0;
+		border-radius: 5px;
+	}
+	&__left-title {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 24px;
+		padding: 20px;
+		border-bottom: 1px solid #F0F0F0;
+	}
+	&__filter-box {
+		display: flex;
+		flex-direction: column;
+		row-gap: 15px;
+		padding: 20px;
+	}
+	&__point {
+	}
+	&__right-box {
+		flex: 1 1 70%;
+		padding: 30px;
+		border: 1px solid #F0F0F0;
+		border-radius: 5px;
+	}
+	&__content-box {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	&__info {
+		display: flex;
+		column-gap: 15px;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	&__profile-ico {
+		& img {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+	}
+	&__name {
+	}
+	&__surname {
+	}
+	&__profession {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 27px;
+	}
+	&__skills {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 27px;
+	}
+	&__text {
+		padding: 0px 5px;
+		border: 2px solid #000;
+		border-radius: 15px;
+	}
+	&__progress {
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 24px;
+	}
+	&__button-box {
+		display: flex;
+		flex-direction: column;
+		row-gap: 10px;
+	}
+	&__button {
+	}
 }

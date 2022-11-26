@@ -18,8 +18,8 @@
 
 //<BUTTONS (a.btn+tab)>====================================================================================================
 .btn {
-	display: inline-flex;
-	align-self: flex-start;
+	display: flex;
+	justify-content: center;
 	border: 1px solid #2B2B2B;
 	border-radius: 100px;
 	transition: 0.3s;
@@ -28,6 +28,7 @@
 		font-size: 14px;
 		line-height: 24px;
 		padding: 7px 25px;
+		text-align: center;
 		transition: 0.3s;
 	}
 	&:hover {
@@ -175,7 +176,7 @@ textarea.input {
 		opacity: 0;
 		visibility: hidden;
 		&:checked + .checkbox__text:before {
-			//background: #fff url("../img/icons/check.svg") center no-repeat;
+			background: url("../img/catalog/check.svg") center/contain no-repeat;
 		}
 	}
 	// .checkbox__text
@@ -184,7 +185,7 @@ textarea.input {
 		align-items: center;
 		position: relative;
 		font-size: 16px;
-		color: #ffffff;
+		color: #2B2B2B;
 		letter-spacing: -0.3px;
 		line-height: calc(20 / 16);
 		cursor: pointer;

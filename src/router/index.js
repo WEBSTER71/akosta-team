@@ -8,6 +8,12 @@ const routes = [
       import ('../views/MainPage.vue')
   },
   {
+    path: '/catalog',
+    name: 'catalog',
+    component: () =>
+      import('../views/Catalog.vue')
+  },
+  {
     path: '/profile',
     name: 'profile',
     component: () =>
