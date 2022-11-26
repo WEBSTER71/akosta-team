@@ -65,7 +65,6 @@
 									<div class="catalog__text">css</div>
 									<div class="catalog__text">js</div>
 								</div>
-								<!--<div class="catalog__progress">пока незнаю</div>-->
 								<div class="catalog__button-box">
 									<div class="catalog__button btn">
 										<div class="btn-txt">Пригласить</div>
