@@ -29,11 +29,30 @@
 	}
 	&__items {
 		display: flex;
-		row-gap: 30px;
+		row-gap: 10px;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		margin: 0px auto;
+	}
+	&__profile-ico {
+		& img {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+	}
+	&__name-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 5px;
+	}
+	&__button-box {
+		display: flex;
+		margin-top: 30px;
+	}
+	&__buttom {
 	}
 	&__cross {
 		position: absolute;

@@ -20,6 +20,7 @@
 .btn {
 	display: flex;
 	justify-content: center;
+	background: #fff;
 	border: 1px solid #2B2B2B;
 	border-radius: 100px;
 	transition: 0.3s;
@@ -29,10 +30,12 @@
 		line-height: 24px;
 		padding: 7px 25px;
 		text-align: center;
+		color: #2B2B2B;
 		transition: 0.3s;
 	}
 	&:hover {
 		border: 1px solid #01E45C;
+		cursor: pointer;
 		.btn-txt {
 			color: #01E45C;
 			transform: scale(1.1);
@@ -200,6 +203,7 @@ textarea.input {
 			height: 18px;
 			background: #fff;
 			border: 1px solid #a7a9ac;
+			border-radius: 3px;
 		}
 	}
 	a {
@@ -224,8 +228,8 @@ textarea.input {
 //<OPTIONS (opt+tab)>====================================================================================================
 .options {
 	display: flex;
-	flex-direction: column;
 	align-items: flex-start;
+	column-gap: 50px;
 	// .options__item
 	&__item {
 		position: relative;
@@ -253,10 +257,9 @@ textarea.input {
 		display: inline-flex;
 		align-items: center;
 		position: relative;
-		font-size: 16px;
-		color: #ffffff;
-		letter-spacing: -0.3px;
-		line-height: calc(20 / 16);
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
 		&:before {
 			content: "";
 			align-self: flex-start;
@@ -264,22 +267,22 @@ textarea.input {
 			flex: 0 0 20px;
 			left: 0;
 			top: 0;
-			border-radius: 50%;
+			border: 1px solid #EDEDED;
+			border-radius: 5px;
 			width: 20px;
-			height: 18px;
+			height: 20px;
 			background: #fff;
-			border: 1px solid #a7a9ac;
 		}
 		&:after {
 			content: "";
 			transition: all 0.3s ease 0s;
 			transform: scale(0);
-			width: 10px;
-			height: 10px;
-			border-radius: 50%;
-			background-color: #77243a;
+			width: 12px;
+			height: 12px;
+			border-radius: 5px;
+			background: #01E45C;
 			position: absolute;
-			left: 5px;
+			left: 4px;
 			top: 4px;
 		}
 	}

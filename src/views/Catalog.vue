@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<header-form-components />
+		<header-profile-components />
 		<main class="page">
 			<div class="catalog">
 				<div class="catalog__container _container">
@@ -50,13 +50,22 @@
 										<div class="catalog__surname">Zhuludkov</div>
 									</div>
 								</div>
-								<div class="catalog__profession">HTML программист</div>
+								<div class="catalog__profession">Программирование</div>
 								<div class="catalog__skills">
 									<div class="catalog__text">html</div>
 									<div class="catalog__text">css</div>
 									<div class="catalog__text">js</div>
+									<div class="catalog__text">html</div>
+									<div class="catalog__text">css</div>
+									<div class="catalog__text">js</div>
+									<div class="catalog__text">html</div>
+									<div class="catalog__text">css</div>
+									<div class="catalog__text">js</div>
+									<div class="catalog__text">html</div>
+									<div class="catalog__text">css</div>
+									<div class="catalog__text">js</div>
 								</div>
-								<!--<div class="catalog__progress">пока хз</div>-->
+								<!--<div class="catalog__progress">пока незнаю</div>-->
 								<div class="catalog__button-box">
 									<div class="catalog__button btn">
 										<div class="btn-txt">Пригласить</div>
@@ -76,13 +85,13 @@
 </template>
 
 <script>
-import headerFormComponents from '../components/header-form'
+import headerProfileComponents from '../components/header-profile'
 import footerComponents from '../components/footer'
 
 export default {
 	name: 'catalog',
 	components: {
-		headerFormComponents,
+		headerProfileComponents,
 		footerComponents,
 	}
 }

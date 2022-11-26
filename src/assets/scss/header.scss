@@ -8,6 +8,9 @@
 		justify-content: space-between;
 		column-gap: 20px;
 		padding: 20px 0px;
+		@media (max-width:$md4) {
+			column-gap: 5px;
+		}
 	}
 	&__items {
 	}
@@ -24,6 +27,9 @@
 	&__button-box {
 		display: flex;
 		gap: 20px;
+		@media (max-width:$md4) {
+			gap: 10px;
+		}
 	}
 	&__button {
 	}

@@ -10,7 +10,7 @@
                             <div class="main-blcok__profession">Full-Stack разработчкик</div>
                         </div>
                         <div class="profile__items">
-                            <div class="profile__photo"><img src="../assets/img/profile/photo.png"></div>
+                            <div class="profile__photo"><img src="../assets/img/profile/image.png"></div>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                       </div>
                 </div>
             </div>
-		</profile>
+			</main>
 		<footer-components />
 	</div>
 </template>

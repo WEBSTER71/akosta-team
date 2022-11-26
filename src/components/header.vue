@@ -2,17 +2,17 @@
 	<header class="header">
 		<div class="header__container _container">
 			<div class="header__wrapper">
-				<div class="header__items">
+				<router-link to="/" class="header__items">
 					<div class="header__title">Logo</div>
-				</div>
+				</router-link>
 				<div class="header__items">
 					<div class="header__button-box">
-						<button class="header__button btn">
+						<router-link to="/login" class="header__button btn">
 							<div class="btn-txt">Вход</div>
-						</button>
-						<button class="header__button btn">
+						</router-link>
+						<router-link to="/registration" class="header__button btn">
 							<div class="btn-txt">Регистрация</div>
-						</button>
+						</router-link>
 					</div>
 				</div>
 			</div>
