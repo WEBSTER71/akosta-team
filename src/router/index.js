@@ -37,6 +37,18 @@ const routes = [
 		component: () =>
 				import ('../views/Registration.vue')
 	},
+	{
+		path: '/registrationRukovoditel',
+		name: 'registrationRukovoditel',
+		component: () =>
+		import ('../views/RegistrationRukovoditel.vue')
+	},
+	{
+		path: '/registrationRazrabotchik',
+		name: 'registrationRazrabotchik',
+		component: () =>
+				import ('../views/RegistrationRazrabotchik.vue')
+	},
   {
     path: '/ipr',
     name: 'ipr',

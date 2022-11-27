@@ -7,14 +7,14 @@
 							<div class="login__items">
 								<div class="login__title">Вход</div>
 								<div class="login__wrapper-input">
-									<input type="email" placeholder="Телеграмм" title="Введите в это поле ввода свой электронный адрес."
+									<input type="email" placeholder="Номер телефона" title="Введите в это поле ввода свой электронный адрес."
 										class="login__input _email-auth">
 								</div>
 								<div class="login__wrapper-input login__wrapper-input_password">
 									<input type="password" placeholder="Пароль" pattern="(.{6,})"
 										title="Пароль должен содержать не менее 6-ти символов." class="login__input _password-pass"
 										v-model="password" v-show="!showPass">
-									<input type="text" placeholder="Пароль*" pattern="(.{6,})"
+									<input type="text" placeholder="Пароль" pattern="(.{6,})"
 										title="Пароль должен содержать не менее 6-ти символов." class="login__input _password-text"
 										v-model="password" v-show="showPass">
 									<div class="login__password" @click="showPass = !showPass">

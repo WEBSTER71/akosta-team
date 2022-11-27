@@ -33,6 +33,29 @@
 		color: #2B2B2B;
 		transition: 0.3s;
 	}
+	&-card {
+		display: flex;
+		justify-content: center;
+		background: #fff;
+		border-radius: 100px;
+		transition: 0.3s;
+		&-txt {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 24px;
+			padding: 7px 25px;
+			text-align: center;
+			color: #2B2B2B;
+			transition: 0.3s;
+		}
+		&:hover {
+			cursor: pointer;
+			.btn-card-txt {
+				color: #01E45C;
+				transform: scale(1.1);
+			}
+		}
+	}
 	&:hover {
 		border: 1px solid #01E45C;
 		cursor: pointer;
@@ -171,6 +194,7 @@ textarea.input {
 //<CHECK (chk+tab)>====================================================================================================
 .checkbox {
 	position: relative;
+	flex: 1 1 100%;
 	// .checkbox__input
 	&__input {
 		position: absolute;
@@ -228,10 +252,18 @@ textarea.input {
 //<OPTIONS (opt+tab)>====================================================================================================
 .options {
 	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 	align-items: flex-start;
 	column-gap: 50px;
+	&__title {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+	}
 	// .options__item
 	&__item {
+		flex: 1 1 100%;
 		position: relative;
 		cursor: pointer;
 		&._error {

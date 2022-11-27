@@ -3,10 +3,10 @@
 		<div class="header__container _container">
 			<div class="header__wrapper">
 				<router-link to="/" class="header__items">
-					<div class="header__title">Logo</div>
+					<div class="header__title">AkostaTeam</div>
 				</router-link>
 				<div class="header__items">
-					<button class="header__logo" @click="openPopupProfile"><img src="../assets/img/header/ava.jpg" alt=""></button>
+					<button class="header__logo" @click="openPopupProfile"><img src="../assets/img/profile/Roman.jpg" alt=""></button>
 				</div>
 			</div>
 		</div>

@@ -1,3 +1,29 @@
+// =========================================================================================
+.password-enter-active, .password-leave-active{
+	transition: 0.3s;
+}
+.password-enter-from, .password-leave-to{
+	opacity: 0;
+	transform: scale(0);
+}
+// =========================================================================================
+.password_active-enter-active, .password_active-leave-active{
+	transition: 0.3s;
+}
+.password_active-enter-from, .password_active-leave-to{
+	opacity: 0;
+	transform: scale(0);
+}
+// =========================================================================================
+.modal-enter-active, .modal-leave-active {
+	transition: 0.5s;
+}
+.modal-enter-from, .modal-leave-to{
+	opacity: 0;
+}
+.modal-enter-to, .modal-leave-from{
+	opacity: 1;
+}
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 ._line {
 	@include adaptiv-value("width", 150, 100, 1);

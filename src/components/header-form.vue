@@ -3,7 +3,7 @@
 		<div class="header__container _container">
 			<div class="header__wrapper">
 				<router-link to="/" class="header__items">
-					<div class="header__title">Logo</div>
+					<div class="header__title">AkostaTeam</div>
 				</router-link>
 			</div>
 		</div>

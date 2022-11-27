@@ -45,25 +45,25 @@
 							<a href="#" class="skills__subtitle">Менеджемент</a>
 						</div>
 						<div class="skills__content-box">
-							<div class="skills__text">1</div>
-							<div class="skills__text">lorem</div>
-							<div class="skills__text">3</div>
-							<div class="skills__text">4</div>
-							<div class="skills__text">5</div>
+							<div class="skills__text">html</div>
+							<div class="skills__text">css</div>
+							<div class="skills__text">scss</div>
+							<div class="skills__text">js</div>
+							<div class="skills__text">vue js</div>
 						</div>
 						<div class="skills__content-box">
-							<div class="skills__text">1</div>
-							<div class="skills__text">2</div>
-							<div class="skills__text">lorem</div>
-							<div class="skills__text">4</div>
-							<div class="skills__text">lorem</div>
+							<div class="skills__text">gulp</div>
+							<div class="skills__text">photoshop</div>
+							<div class="skills__text">figma</div>
+							<div class="skills__text">css</div>
+							<div class="skills__text">scss</div>
 						</div>
 						<div class="skills__content-box">
-							<div class="skills__text">lorem</div>
-							<div class="skills__text">2</div>
-							<div class="skills__text">3</div>
-							<div class="skills__text">lorem</div>
-							<div class="skills__text">5</div>
+							<div class="skills__text">html</div>
+							<div class="skills__text">js</div>
+							<div class="skills__text">vue js</div>
+							<div class="skills__text">photoshop</div>
+							<div class="skills__text">figma</div>
 						</div>
 					</div>
 				</div>

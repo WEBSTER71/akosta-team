@@ -52,8 +52,6 @@
 		display: flex;
 		margin-top: 30px;
 	}
-	&__buttom {
-	}
 	&__cross {
 		position: absolute;
 		z-index: 30;
@@ -76,19 +74,6 @@
 				transform: rotate(45deg);
 			}
 		}
-	}
-
-	&__title-rp{
-		text-align: center;
-		font-weight: 500;
-		font-size: 18px;
-		line-height: 24px;
-	}
-	
-	&__descrypt-rp{	
-		font-weight: 500;
-		font-size: 16px;
-		line-height: 22px;
 	}
 }
 //====================================================================================================

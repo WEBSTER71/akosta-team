@@ -124,6 +124,7 @@
 }
 .blog{
     margin-top: 150px;
+		margin-bottom: 100px;
     &__title{
         text-align: center;
         font-weight: 900;
@@ -182,6 +183,7 @@
 }
 .profile{
     &__wrapper{
+			position: relative;
         display: flex;
 				flex-wrap: wrap;
         justify-content: space-between;
@@ -217,9 +219,11 @@
         color: #2B2B2B;
     }
     &__photo{
+			position: absolute;
+			right: 0;
 				& img {
-					width: 250px;
-					height: 250px;
+					width: 350px;
+					height: 350px;
 					border-radius: 20%;
 				}
     }
@@ -338,6 +342,9 @@
 		padding: 30px;
 		border: 1px solid #F0F0F0;
 		border-radius: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 30px;
 	}
 	&__content-box {
 		display: flex;
@@ -370,6 +377,7 @@
 	&__skills {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 		gap: 10px;
 		font-weight: 700;
 		font-size: 14px;
@@ -502,7 +510,7 @@
 		justify-content: center;
 		flex-direction: column;
 		max-width: 384px + 200px;
-		margin: 100px auto;
+		margin: 75px auto;
 		padding: 50px 100px;
 		background: #F2F2F2;
 		border: 1px solid #EDEDED;
@@ -552,6 +560,22 @@
 			min-width: auto;
 		}
 	}
+	&__textarea {
+		min-width: 384px;
+		padding: 15px 20px 75px;
+		background: #fff;
+		border: 1px solid #EDEDED;
+		border-radius: 5px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		color: #000;
+		resize: none;
+		@media (max-width:$md4) {
+			width: 100%;
+			min-width: auto;
+		}
+	}
 	&__password {
 		position: absolute;
 		top: 16px;
@@ -570,6 +594,20 @@
 			width: 20px;
 			height: 20px;
 		}
+	}
+	&__select {
+		display: flex;
+		column-gap: 20px;
+	}
+	&__checkbox {
+		display: flex;
+		flex-wrap: wrap;
+		align-self: start;
+		gap: 15px;
+	}
+	&__button-box {
+		display: flex;
+		column-gap: 20px;
 	}
 	&__text {
 		font-weight: 500;
@@ -601,12 +639,92 @@
 		}
 	}
 }
+.ipr {
+	min-height: 1080px;
+	&__items {
+		display: flex;
+		column-gap: 50px;
+	}
+	&__content-left {
+		flex: 1 1 20%;
+		min-height: 1080px;
+		padding: 10px;
+		color: #fff;
+		background: #28282B;
+	}
+	&__block {
+		display: flex;
+		flex-direction: column;
+		padding: 15px;
+		border-radius: 10px;
+		background: #01E45C;
+		&-arrow {
+			display: inline-block;
+		}
+		&-title {
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 28px;
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+		&-btn__box {
+			display: flex;
+			column-gap: 20px;
+		}
+		&-button {
+
+		}
+	}
+	&__content-right {
+		position: relative;
+		flex: 1 1 80%;
+	}
+	&__content-point {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 5px;
+		&-1{top: 375px - 50px; right: 425px + 150px;}
+		&-2{top: 590px - 50px; right: 500px + 150px;}
+		&-3{top: 675px - 50px; right: 750px + 150px;}
+		&-4{top: 725px - 50px; right: 275px + 150px;}
+		&-5{top: 550px - 50px; right: 150px + 150px;}
+		&-6{top: 350px - 50px; right: 200px + 150px;}
+		&-7{top: 175px - 50px; right: 200px + 150px;}
+		&-8{top: 150px - 50px; right: 375px + 150px;}
+		&-9{top: 225px - 50px; right: 575px + 150px;}
+		&-10{top: 375px - 50px; right: 775px + 150px;}
+	}
+	&__icon {
+		
+	}
+	&__name {
+		max-width: 130px;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+	}
+	&__content-arrow {
+		position: absolute;
+		&-1{top: 425px - 50px; right: 500px + 150px; transform: rotate(300deg);}
+		&-2{top: 650px - 50px; right: 575px + 150px; transform: rotate(150deg) scaleX(-1);}
+		&-3{top: 650px - 50px; right: 375px + 150px; transform: rotate(220deg);}
+		&-4{top: 615px - 50px; right: 150px + 150px; transform: rotate(145deg);}
+		&-5{top: 425px - 50px; right: 160px + 150px; transform: rotate(250deg) scaleX(-1);}
+		&-6{top: 200px - 50px; right: 100px + 150px; transform: rotate(90deg);}
+		&-7{top: 200px - 50px; right: 275px + 150px; transform: rotate(180deg) scaleX(-1);}
+		&-8{top: 75px - 50px; right: 450px + 150px; transform: rotate(345deg);}
+		&-9{top: 300px - 50px; right: 600px + 150px; transform: rotate(135deg) scaleX(-1);}
+	}
+}
 // //Курсы
 .curs_py_1{
 	&__wrapper{
 			display: flex;
 			flex-direction: row;
-			
 	}
 	&__headBlock{
 			background-color: #000000;
@@ -620,5 +738,13 @@
 			max-width: 32px;
 			max-height: 32px;
 			background-color: #F0F0F0;
-}
+	}
+	&__title {
+	}
+
+	&__video {
+	}
+
+	&__button {
+	}
 }

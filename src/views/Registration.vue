@@ -7,7 +7,7 @@
 					<div class="registration__items">
 						<div class="registration__title">Регистрация</div>
 						<div class="registration__wrapper-input">
-							<input type="text" pattern="\d [0-9]" placeholder="Телеграмм" title="Введите в это поле ввода свой электронный адрес." class="registration__input _email">
+							<input type="text" pattern="\d [0-9]" placeholder="Номер телефона" title="Введите в это поле ввода свой электронный адрес." class="registration__input">
 						</div>
 						<div class="registration__wrapper-input">
 							<input type="text" placeholder="Имя" class="registration__input _name">
@@ -31,41 +31,19 @@
 								<transition name="password"><div v-show="showPassTwo" title="Скрыть пароль." class="registration__password-img-active"><img src="../assets/img/form/eyes-active.svg" alt=""></div></transition>
 							</div>
 						</div>
-						<!--<div class="registration__wrapper-input registration__wrapper-input_options">
-							<div class="options">
-								<label class="options__item">
-									<input class="options__input _male" checked type="radio" value="man" name="form[option]">
-									<span class="options__text"><span>Мужчина</span></span>
-								</label>
-								<label class="options__item">
-									<input class="options__input" type="radio" value="female" name="form[option]">
-									<span class="options__text"><span>Женщина</span></span>
-								</label>
-							</div>
-						</div>-->
-						<button type="submit" class="registration__button btn" @click="sendButtonReg">
-							<div class="btn-txt">Регистрация</div>
-						</button>
+						<div class="registration__button-box">
+							<button type="submit" class="registration__button btn" @click="sendButtonRegRuk">
+								<div class="btn-txt">Руководитель</div>
+							</button>
+							<button type="submit" class="registration__button btn" @click="sendButtonRegRaz">
+								<div class="btn-txt">Разработчик</div>
+							</button>
+						</div>
 						<div class="registration__text">У вас есть аккаунт?<router-link to="/login" class="registration__green-txt">Войти</router-link></div>
 					</div>
 				</div>
 			</div>
 		</main>
-		<transition name="modal">
-			<div v-if="isPopupMessage" @closePopup="closePopup" class="popup popup-message">
-				<div class="popup__content">
-					<div class="popup__body popup__body-message">
-						<div class="popup__items">
-							<div class="popup__title popup__title-message">{{text}}</div>
-						</div>
-						<div class="popup__cross" @click="closePopup">
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</transition>
 		<footer-components/>
 	</div>
 </template>
@@ -83,8 +61,6 @@ export default {
 
 	data() {
 		return {
-			text: "",
-			isPopupMessage: false,
 			showPass: false,
 			showPassTwo: false,
 			firstPass: "",
@@ -92,7 +68,7 @@ export default {
 		}
 	},
 	methods: {
-		async sendButtonReg() {
+		async sendButtonRegRuk() {
 			if (this.showPass == true) {
 				this.firstPass = document.querySelector("._first-password-text").value
 			}
@@ -106,7 +82,23 @@ export default {
 			else {
 				this.secondPass = document.querySelector("._second-password-pass").value
 			}
-			window.location.href = '/catalog';
+			window.location.href = '/registrationRukovoditel';
+		},
+		async sendButtonRegRaz() {
+			if (this.showPass == true) {
+				this.firstPass = document.querySelector("._first-password-text").value
+			}
+			else {
+				this.firstPass = document.querySelector("._first-password-pass").value
+			}
+
+			if (this.showPassTwo == true) {
+				this.secondPass = document.querySelector("._second-password-text").value
+			}
+			else {
+				this.secondPass = document.querySelector("._second-password-pass").value
+			}
+			window.location.href = '/registrationRazrabotchik';
 		}
 	}
 }

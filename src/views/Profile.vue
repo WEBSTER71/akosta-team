@@ -1,16 +1,16 @@
 <template>
 	<div class="wrapper">
-		<header-components />
+		<header-profile-components />
 		<main class="page">
 			<div class="profile">
                 <div class="profile__container _container">
                     <div class="profile__wrapper">
                         <div class="profile__items">
-                            <div class="profile__surname">Владислав Акоста</div>
-                            <div class="main-blcok__profession">Full-Stack разработчкик</div>
+                            <div class="profile__surname">Roman Zhuludkov</div>
+                            <div class="main-blcok__profession">Front-end разработчкик</div>
                         </div>
                         <div class="profile__items">
-                            <div class="profile__photo"><img src="../assets/img/profile/image.png"></div>
+                            <div class="profile__photo"><img src="../assets/img/profile/Roman.jpg"></div>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
 </template>
 
 <script>
-import headerComponents from '../components/header'
+import headerProfileComponents from '../components/header-profile'
 import footerComponents from '../components/footer'
 import Footer from '@/components/footer.vue'
 
@@ -86,7 +86,7 @@ import Footer from '@/components/footer.vue'
 export default {
   name: 'profile',
   components: {
-		headerComponents,
+		headerProfileComponents,
 		footerComponents
   }
 

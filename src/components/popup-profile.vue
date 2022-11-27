@@ -3,7 +3,7 @@
 		<div class="popup__content">
 			<div class="popup__body">
 				<div class="popup__items">
-					<div class="popup__profile-ico"><img src="../assets/img/header/ava.jpg" alt=""></div>
+					<div class="popup__profile-ico"><img src="../assets/img/profile/Roman.jpg" alt=""></div>
 					<div class="popup__name-box">
 						<div class="popup__name">Roman</div>
 						<div class="popup__surname">Zhuludkov</div>
